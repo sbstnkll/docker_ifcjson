@@ -22,4 +22,4 @@ RUN pip3 install -r requirements.txt
 EXPOSE 8000 3000
 
 # uncomment the following line for production:
-#CMD ["npm", "start"]
+#ENTRYPOINT ["npm", "start"]
